@@ -14,17 +14,17 @@ Install the Proxmox Exporter:
       SSH into your Proxmox server.
       Run the following command to install the Proxmox exporter:
 
-     apt update\
-     apt install python3-pip\
-     pip3 install proxmoxer\
-     pip3 install prometheus-client\
+     apt update
+     apt install python3-pip
+     pip3 install proxmoxer
+     pip3 install prometheus-client
 
 Clone the Proxmox exporter repository:
 
 git clone https://github.com/znerol/prometheus-proxmox-exporter.git
 
-     cd prometheus-proxmox-exporter\
-     python3 setup.py install\
+     cd prometheus-proxmox-exporter
+     python3 setup.py install
 
 Configure the Proxmox exporter by creating a configuration file (/etc/proxmox-exporter/config.yaml):
 
