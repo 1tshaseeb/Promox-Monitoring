@@ -80,10 +80,10 @@ Import a Proxmox Dashboard:
 
 Step 4: Automate with GitHub
 
-To keep configurations and updates managed, you can use GitHub for your monitoring setup.\
+To keep configurations and updates managed, you can use GitHub for your monitoring setup.
 
 Create a Repository:
-        Create a private/public repository on GitHub for your Proxmox monitoring configurations.\
+        Create a private/public repository on GitHub for your Proxmox monitoring configurations.
 
 Push Configuration Files:
         Add the Prometheus and Grafana configuration files to the repository:
