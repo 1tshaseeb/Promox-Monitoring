@@ -119,7 +119,7 @@ Add a GitHub Actions workflow to deploy configurations or updates automatically:
                       ssh user@<proxmox-ip> "systemctl restart prometheus"
 
  Test the Workflow:
-        Push changes to your GitHub repository and ensure the workflow successfully deploys your updates.\
+        Push changes to your GitHub repository and ensure the workflow successfully deploys your updates.
 
 Step 5: (Optional) Add Alerts
 
