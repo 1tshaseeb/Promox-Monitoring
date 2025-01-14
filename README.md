@@ -1,5 +1,6 @@
 
-![Leonardo_Phoenix_10_A_modern_and_minimal_banner_image_for_a_Gi_1](https://github.com/user-attachments/assets/315aae39-b19a-47e6-b56d-602f6ef3567d)
+![a-banner-image-for-a-github-repository-t_ek_xkBpLS22SVljXwObofQ_JyxbSRwgSkGNJtAlsGMm_A-transformed](https://github.com/user-attachments/assets/030abd32-eda2-402c-81de-50e1b48d65ad)
+
 
 
 
