@@ -69,21 +69,21 @@ Install Grafana:
         Follow the official Grafana installation guide.
 
 Connect Grafana to Prometheus:
-        Open Grafana at http://<grafana-ip>:3000.
-        Go to Configuration > Data Sources > Add data source.
-        Choose Prometheus and enter the URL: http://<prometheus-server-ip>:9090.
+        Open Grafana at http://<grafana-ip>:3000.\
+        Go to Configuration > Data Sources > Add data source.\
+        Choose Prometheus and enter the URL: http://<prometheus-server-ip>:9090.\
 
 Import a Proxmox Dashboard:
-        Visit Grafana Dashboards.
-        Search for "Proxmox" dashboards.
-        Copy the dashboard ID and import it in Grafana (Dashboard > Import).
+        Visit Grafana Dashboards.\
+        Search for "Proxmox" dashboards.\
+        Copy the dashboard ID and import it in Grafana (Dashboard > Import).\
 
 Step 4: Automate with GitHub
 
-To keep configurations and updates managed, you can use GitHub for your monitoring setup.
+To keep configurations and updates managed, you can use GitHub for your monitoring setup.\
 
 Create a Repository:
-        Create a private/public repository on GitHub for your Proxmox monitoring configurations.
+        Create a private/public repository on GitHub for your Proxmox monitoring configurations.\
 
 Push Configuration Files:
         Add the Prometheus and Grafana configuration files to the repository:
@@ -119,7 +119,7 @@ Add a GitHub Actions workflow to deploy configurations or updates automatically:
                       ssh user@<proxmox-ip> "systemctl restart prometheus"
 
  Test the Workflow:
-        Push changes to your GitHub repository and ensure the workflow successfully deploys your updates.
+        Push changes to your GitHub repository and ensure the workflow successfully deploys your updates.\
 
 Step 5: (Optional) Add Alerts
 
