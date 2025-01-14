@@ -39,7 +39,7 @@ Start the Exporter:
 
 Run the exporter as a background service:
 
-        nohup prometheus-proxmox-exporter &
+    nohup prometheus-proxmox-exporter &
 
 Confirm it’s running by visiting http://<your-proxmox-ip>:9200/metrics.
 
@@ -107,24 +107,24 @@ Set Up GitHub Actions for CI/CD:
 Add a GitHub Actions workflow to deploy configurations or updates automatically:
         Create a .github/workflows/deploy.yml file in your repository:
 
-            name: Deploy Monitoring Config
+    name: Deploy Monitoring Config
 
-            on:
-              push:
-                branches:
-                  - main
+     on:
+      push:
+       branches:
+         - main
 
-            jobs:
-              deploy:
-                runs-on: ubuntu-latest
-                steps:
-                  - name: Checkout repository
-                    uses: actions/checkout@v3
+     jobs:
+       deploy:
+         runs-on: ubuntu-latest
+         steps:
+           - name: Checkout repository
+             uses: actions/checkout@v3
 
-                  - name: Deploy Prometheus Config
-                    run: |
-                      scp prometheus.yml user@<proxmox-ip>:/etc/prometheus/prometheus.yml
-                      ssh user@<proxmox-ip> "systemctl restart prometheus"
+           - name: Deploy Prometheus Config
+             run: |
+               scp prometheus.yml user@<proxmox-ip>:/etc/prometheus/prometheus.yml
+               ssh user@<proxmox-ip> "systemctl restart prometheus"
 
  Test the Workflow:
         Push changes to your GitHub repository and ensure the workflow successfully deploys your updates.
