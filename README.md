@@ -71,12 +71,12 @@ Install Grafana:
 Connect Grafana to Prometheus:
         Open Grafana at http://<grafana-ip>:3000.\
         Go to Configuration > Data Sources > Add data source.\
-        Choose Prometheus and enter the URL: http://<prometheus-server-ip>:9090.\
+        Choose Prometheus and enter the URL: http://<prometheus-server-ip>:9090.
 
 Import a Proxmox Dashboard:
         Visit Grafana Dashboards.\
         Search for "Proxmox" dashboards.\
-        Copy the dashboard ID and import it in Grafana (Dashboard > Import).\
+        Copy the dashboard ID and import it in Grafana (Dashboard > Import).
 
 Step 4: Automate with GitHub
 
